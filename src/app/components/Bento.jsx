@@ -3,7 +3,7 @@ import React from 'react'
 function Bento() {
   return (
     <>
-        <div className="grid auto-rows-[192px] grid-cols-3 gap-4">
+        <div className="grid auto-rows-[300px] grid-cols-3 gap-4 p-8">
             {[...Array(7)].map((_, i) => (
                 <div
                 key={i}

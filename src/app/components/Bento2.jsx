@@ -3,7 +3,7 @@ import React from 'react'
 function Bento2() {
   return (
     <>
-        <div class="grid grid-cols-5 grid-rows-5 gap-2 text-white">
+        <div class="grid grid-cols-5 grid-rows-5 gap-2 h-[250px] text-white p-8">
             <div className="bg-slate-300 row-span-4">1</div>
             <div className="bg-slate-300 col-span-2 row-span-3">2</div>
             <div className="bg-slate-300 row-span-4 col-start-5 row-start-2">6</div>
@@ -12,6 +12,7 @@ function Bento2() {
             <div className="bg-slate-300 row-span-2 col-start-3 row-start-4">10</div>
             <div className="bg-slate-300 row-span-5 col-start-4 row-start-1">12</div>
             <div className="bg-slate-300 col-start-5 row-start-1">14</div>
+            
         </div>
     </>
   )
